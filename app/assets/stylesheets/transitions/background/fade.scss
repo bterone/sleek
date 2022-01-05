@@ -1,0 +1,16 @@
+@mixin fade {
+  display: inline-block;
+	vertical-align: middle;
+
+	overflow: hidden;
+
+  transition-duration: $medium-duration;
+  transition-property: "color, background-color";
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $active-bg-color;
+		color: white;
+	}
+}
