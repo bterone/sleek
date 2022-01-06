@@ -1,6 +1,6 @@
 {
   "name": "sleek-css-test",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just a test library",
   "scripts": {
     "prebuild": "rimraf dist",
