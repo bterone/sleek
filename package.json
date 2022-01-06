@@ -13,7 +13,7 @@
   "sass": "./src/scss/index.scss",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "esbuild": "^0.14.10",
     "rimraf": "^3.0.2",
     "sass": "^1.46.0"
