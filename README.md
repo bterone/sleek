@@ -1,1 +1,1 @@
-This is a test library. Don't mind it!
+This is a test library. Ignore this!
