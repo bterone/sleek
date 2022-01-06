@@ -1,18 +1,20 @@
 {
-  "name": "sleek-css",
+  "name": "sleek-css-test",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "sass ./app/assets/stylesheets/index.scss ./dist/sleekCss.css && node ./bin/build.js",
+    "prebuild": "rimraf dist",
+    "build": "sass ./src/scss/index.scss ./dist/index.css && node ./bin/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "style": "./dist/sleekCss.css",
-  "sass": "./app/assets/stylesheets/index.scss",
+  "style": "./dist/index.css",
+  "sass": "./src/scss/index.scss",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "esbuild": "^0.14.10",
+    "rimraf": "^3.0.2",
     "sass": "^1.46.0"
   }
 }

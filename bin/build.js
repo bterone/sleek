@@ -1,6 +1,7 @@
 import esbuild from 'esbuild';
 
 esbuild.build({
+  entryPoints: ['src/js/index.js'],
   bundle: true,
   sourcemap: true,
   outdir: 'dist',
