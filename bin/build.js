@@ -1,7 +1,6 @@
 import esbuild from 'esbuild';
 
 esbuild.build({
-  entryPoints: ['sleekCss.js'],
   bundle: true,
   sourcemap: true,
   outdir: 'dist',
