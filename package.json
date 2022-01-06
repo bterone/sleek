@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "sass ./app/assets/stylesheets/index.scss ./dist/sleekCss.css && node ./bin/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "main": "./dist/sleekCss.js",
+  "style": "./dist/sleekCss.css",
+  "sass": "./app/assets/stylesheets/index.scss",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.14.10",
+    "sass": "^1.46.0"
+  }
 }
