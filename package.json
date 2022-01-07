@@ -22,5 +22,8 @@
     "esbuild": "^0.14.10",
     "rimraf": "^3.0.2",
     "sass": "^1.46.0"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
   }
 }

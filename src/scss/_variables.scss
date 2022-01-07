@@ -1,3 +1,7 @@
-$medium-duration: 0.3s;
+// Smaller elements have faster animation times
+$small-element-medium-duration: 0.3s;
+
+// Larger elements have more weight and need longer time to span the whole element
+$large-element-medium-duration: 1s;
 
 $active-bg-color: #0d6efd;

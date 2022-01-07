@@ -1,4 +1,4 @@
-@mixin radial-out($max-radius: 1em) {
+@mixin button-radial-out($max-radius: 1em) {
   z-index: 1;
   position: relative;
   color: $active-bg-color;
@@ -7,7 +7,7 @@
   border: none;
   background-color: white;
   overflow: hidden;
-  transition: color $medium-duration ease-in-out;
+  transition: color $small-element-medium-duration ease-in-out;
 
   &::before {
     content: '';
@@ -21,7 +21,7 @@
     background-color: $active-bg-color;
     transform-origin: center;
     transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
-    transition: transform $medium-duration ease-in-out;
+    transition: transform $small-element-medium-duration ease-in-out;
   }
 
   &:hover {
@@ -33,6 +33,6 @@
   }
 }
 
-.radial-out {
-  @include radial-out();
+.button-radial-out {
+  @include button-radial-out();
 }
