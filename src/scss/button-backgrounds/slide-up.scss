@@ -1,4 +1,4 @@
-@mixin slide-up {
+@mixin button-slide-up {
   z-index: 1;
   position: relative;
   font-size: inherit;
@@ -20,7 +20,7 @@
     background-color: $active-bg-color;
     transform-origin: center top;
     transform: scaleY(0);
-    transition: transform $medium-duration ease-in-out;
+    transition: transform $small-element-medium-duration ease-in-out;
   }
   
   &:hover::before {
@@ -29,6 +29,6 @@
   }
 }
 
-.slide-up {
-  @include slide-up();
+.button-slide-up {
+  @include button-slide-up();
 }

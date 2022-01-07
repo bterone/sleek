@@ -1,0 +1,17 @@
+@keyframes transition-zoom-in {
+  from {
+    transform: translate3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    transform: translate3d(1, 1, 1);
+  }
+}
+
+@mixin transition-zoom-in {
+  animation: transition-zoom-in $large-element-medium-duration;
+}
+
+.transition-zoom-in {
+  @include transition-zoom-in();
+}

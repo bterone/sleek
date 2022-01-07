@@ -1,4 +1,9 @@
 @import './variables';
 
-@import './button-background/radial-out';
-@import './button-background/slide-up';
+@import './button-backgrounds/radial-out';
+@import './button-backgrounds/slide-up';
+
+@import './transitions/fade-in.scss';
+@import './transitions/fade-up.scss';
+@import './transitions/zoom-in.scss';
+@import './transitions/zoom-out.scss';

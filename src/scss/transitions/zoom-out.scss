@@ -1,0 +1,17 @@
+@keyframes transition-zoom-out {
+  from {
+    transform: translate3d(1, 1, 1);
+  }
+
+  to {
+    transform: translate3d(1.1, 1.1, 1.1);
+  }
+}
+
+@mixin transition-zoom-out {
+  animation: transition-zoom-out $large-element-medium-duration;
+}
+
+.transition-zoom-out {
+  @include transition-zoom-out();
+}
